@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#title{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 60px;
+}
+#form{
+    margin-top: 30px;
+    display: flex;
+    font-size: x-large;
+    justify-content: center;
+    border:2px solid black;
+    border-radius: 10px;
+    width: 650px;
+    height:1200px;
+    margin-left: 350PX;
+    background-color: pink;
+    
+}
+#button{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+color:white;
+background-color:dodgerblue;
+border: 2px solid black;
+border-radius: 10px;
+
+}
+#body{
+    background-color: aqua;
+}

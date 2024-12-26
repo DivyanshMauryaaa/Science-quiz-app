@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Great Science Quiz</title>
+    <link rel="stylesheet" href="final.css">
+</head>
+<body id="body">
+    <div id="contains">
+        <div id="content">
+            <h1 id="title">The Great Science Quiz</h1>
+            <div id="form">
+                <form action="/cgi-bin/quiz.py" method="POST">
+                    <p>1. What is the process by which plants make their own food? <br><br>Options: photosynthesis, digestion</p>
+                    <input type="text" name="q1" id="n1">
+                    <br><br><br>
+                    
+                    <p>2. Which of the following is a physical change? <br>Options: melting ice, burning paper</p>
+                    <input type="text" name="q2" id="n2">
+                    <br><br>
+                    
+                    <p>3. What is the main function of the circulatory system? <br>Options: to transport oxygen and nutrients, to digest food</p>
+                    <input type="text" name="q3" id="n3">
+                    <br><br>
+                    
+                    <p>4. Which state of matter has a definite shape and volume? <br>Options: solid, gas</p>
+                    <input type="text" name="q4" id="n4">
+                    <br><br>
+                    
+                    <p>5. What is the force that pulls objects toward the Earth? <br>Options: gravity, magnetism</p>
+                    <input type="text" name="q5" id="n5">
+                    <br><br>
+                    
+                    <p>6. Which of the following is a non-renewable resource? <br>Options: coal, wind energy</p>
+                    <input type="text" name="q6" id="n6">
+                    <br><br>
+                    
+                    <p>7. What is the main function of the root of a plant? <br>Options: to make food,to absorb water </p>
+                    <input type="text" name="q7" id="n7">
+                    <br><br>
+                    
+                    <p>8. Which of the following is an example of a chemical change? <br>Options: water evaporating, iron rusting</p>
+                    <input type="text" name="q8" id="n8">
+                    <br><br>
+                    
+                    <p>9. What does the water cycle include? <br>Options: Melting, Evaporation</p>
+                    <input type="text" name="q9" id="n9">
+                    <br><br>
+                    
+                    <p>10. Which of the following is a renewable resource? <br>Options:Wind,Natural Gas</p>
+                    <input type="text" name="q10" id="n10">
+                    <br><br>
+                    
+                    <button type="button" id="button">Submit Answers</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    
+    <dialog id="scoreDialog">
+        <p id="scoreMessage"></p>
+        <button onclick="document.getElementById('scoreDialog').close()">Close</button>
+    </dialog>
+    
+    <script src="final.js"></script>
+</body>
+</html>
